@@ -171,7 +171,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; font-weight: 800; letter-spacin
 .send { margin-top: 20px; width: 100%; font-size: 17px; min-height: 54px; }
 .note { font-size: 14px; color: var(--ink-2); margin: 10px 0 0; }
 
-.sketch { margin-bottom: 30px; position: sticky; top: 96px; }
+.sketch { margin-bottom: 30px; }
 .sketch-paper { background: #FBFDFE; border: 1px solid #D8E1E6; box-shadow: 0 14px 28px rgba(60,40,10,.12); background-image: linear-gradient(#E3EBEF 1px, transparent 1px), linear-gradient(90deg, #E3EBEF 1px, transparent 1px); background-size: 20px 20px; background-position: -1px -1px; }
 .sketch-paper svg { width: 100%; height: auto; display: block; }
 .sketch-cap { font: 400 17px "Kalam", cursive; color: var(--ink-2); margin: 10px 2px 0; }
