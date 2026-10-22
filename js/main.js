@@ -34,7 +34,7 @@
       var grp = el('g', { transform: 'translate(' + g.x.toFixed(2) + ' ' + g.y.toFixed(2) + ') rotate(' + g.a + ')' }, root);
       el('rect', { x: -END, y: -GH / 2, width: GL + 2 * END, height: GH, rx: END, fill: 'url(#zg)', stroke: '#A97F05', 'stroke-width': .6 }, grp);
       el('rect', { x: -END, y: -GH / 2, width: GL + 2 * END, height: GH, rx: END, filter: 'url(#wear)', opacity: .55 }, grp);
-      el('rect', { x: -END + 3, y: -GH / 2 + .9, width: GL + 2 * END - 6, height: 1.2, rx: .6, fill: '#FFF4BF', opacity: .55 }, grp);
+      el('rect', { x: 0, y: -GH / 2 + .9, width: GL, height: 1.2, rx: .6, fill: '#FFF4BF', opacity: .55 }, grp);
       var start = g.i * 20; // cm
       var tk = el('g', { stroke: '#1A1712', 'stroke-width': .38 }, grp);
       for (var mm = 0; mm <= GL; mm++) {
